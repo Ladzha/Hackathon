@@ -1,0 +1,43 @@
+    # root =Tk()
+    # root['bg'] = 'white'
+    # root.title('Call Grandma')
+    # root.geometry('350x300')
+    
+    # # root.overrideredirect(1)
+    # # root.wm_attributes('transparentcolor', 'red')
+    # root.resizable(width=False, height=False)
+    # root.iconbitmap('CallGrandma/logo.ico')
+    # # canvas = Canvas(root, width=300, height=250)
+    # # canvas.pack()
+
+    # frame_top = Frame(root, bg='#b969f9', bd=5)
+    # frame_top.place(relx=0.15, rely=0.15,  relwidth=0.7, relheight=0.25)
+
+    # frame_bottom = Frame(root, bg='#b969f9', bd=5)
+    # frame_bottom.place(relx=0.15, rely=0.55,  relwidth=0.7, relheight=0.1)
+
+    # nameField =Entry(frame_top, bg = 'white', font = 20)
+    # nameField.pack()
+    
+    # timeInfo = Label(frame_bottom, bg = 'white', font = 40)
+    # timeInfo.pack()
+    
+    # style = ttk.Style()
+    # style.configure("Transporent.TButton", background="systemTransporent")
+    
+    # button = Button(frame_top, text='Check Time', bg = '#E7CDFD', activebackground='white', command=button_click)
+    # button.pack()
+
+
+    
+#     style = ttk.Style()
+#     style.configure("Transparent.TButton", background="systemTransparent")
+
+# # Create a rounded button with transparent background
+#     button = ttk.Button(root, text="Click me", style="Transparent.TButton", command=button_click)
+#     button.config(width=10, height=2)
+#     button.place(relx=0.5, rely=0.5, anchor="center")
+
+    # button = Button(frame_bottom, text='Add person', bg = '#E7CDFD', font = ('Helvetica', 10, 'bold'), activebackground='white', command=button_click)
+    # button.pack()
+    # root.mainloop()
